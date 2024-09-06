@@ -4,7 +4,6 @@ from transformers import LlamaForCausalLM, LlamaTokenizer
 import torch
 
 # Load the LLaMA model and tokenizer (you can download it from Hugging Face's model hub)
-# You may need to replace the model path with the one you want to use
 @st.cache_resource
 def load_llama_model():
     model_name = "meta-llama/Llama-2-7b-chat-hf"  # Example: LLaMA 2 (hosted on Hugging Face)
