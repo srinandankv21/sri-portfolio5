@@ -2,5 +2,4 @@ streamlit
 pymupdf
 transformers
 torch
-LlamaForCausalLM
-LlamaTokenizer
+
