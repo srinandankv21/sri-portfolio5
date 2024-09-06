@@ -2,4 +2,4 @@ streamlit
 pymupdf
 transformers
 torch
-
+--upgrade transformers
