@@ -1,4 +1,5 @@
 import streamlit as st
+import fitz
 from google.generativeai import chat
 
 # Fetch API key from Streamlit secrets
